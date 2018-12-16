@@ -1,0 +1,33 @@
+main{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.clock{
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.clock div{
+  width: 100px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  transform-origin: right;
+  transition: 0.5s;
+}
+.seconds{
+  background-color: black;
+
+}
+.minutes{
+  background-color: blue;
+}
+.hours{
+background-color: red;
+}
