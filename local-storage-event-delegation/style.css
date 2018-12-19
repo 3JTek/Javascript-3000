@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.menu{
+  widht: 200px;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-align: center;
+}
