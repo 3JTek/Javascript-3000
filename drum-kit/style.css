@@ -1,0 +1,39 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s2.qwant.com/thumbr/0x380/6/e/b4426c2847f2e285fa1040e79544436813032c9367d1e5bf92b0ed6b083867/pexels-photo-640781.jpeg?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F640781%2Fpexels-photo-640781.jpeg%3Fcs%3Dsrgb%26dl%3Dadventure-climb-conifer-640781.jpg%26fm%3Djpg&q=0&b=1&p=0&a=1");
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+div{
+  width: 30px;
+  color: white;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin: 10px;
+  transition: all 0.07s linear;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.3);
+  transform: all 0.07 linear;
+}
+
+div span{
+  color: #ffc600;
+  font-size: 12px;
+}
+
+.playing{
+  transform:scale(1.1);
+  border: 2px solid #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
